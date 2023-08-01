@@ -1,0 +1,37 @@
+/* frontend/src/App.css */
+.App {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 550px;
+}
+
+.status {
+  margin-bottom: 20px;
+  margin-left: 650px;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  font-size: 24px;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 280px;
+  margin-right: -280px;
+}
